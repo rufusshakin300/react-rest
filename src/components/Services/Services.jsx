@@ -47,7 +47,7 @@ const Services = () => {
               <div
                 data-aos="zoom-in"
                 data-aos-duration="300"
-                className="rounded-2xl bg-white dark:bg-gray-800 hover:bg-primary dark:hover:bg-primary hover:text-white relative shadow-xl duration-high group max-w-[300px]"
+                className="rounded-2xl bg-white dark:bg-gray-800 hover:bg-secondary dark:hover:bg-secondary hover:text-white relative shadow-xl duration-high group max-w-[300px]"
               >
                 <div className="h-[100px]">
                   <img
