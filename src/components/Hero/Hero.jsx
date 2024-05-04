@@ -1,5 +1,5 @@
 import React from "react";
-import BiryaniImg1 from "../../assets/biryani3.png";
+import BiryaniImg1 from "../../assets/pngegg.png";
 import BiryaniImg2 from "../../assets/biryani5.png";
 import BiryaniImg3 from "../../assets/biryani2.png";
 import Vector from "../../assets/vector3.png";
@@ -34,7 +34,7 @@ const Hero = () => {
   return (
     <>
       <div
-        className="min-h-[550px] sm:min-h-[600px] bg-black dark:bg-white dark:text-black flex justify-center items-center dark:text-white duration-200"
+        className="min-h-[550px] sm:min-h-[600px] bg-black dark:bg-black dark:text-gray flex justify-center items-center dark:text-white duration-200"
         style={bgImage}
       >
         <div className="container pb-8 sm:pb-0">
@@ -44,21 +44,24 @@ const Hero = () => {
               data-aos="zoom-out"
               data-aos-duration="400"
               data-aos-once="true"
-              className="flex flex-col justify-center gap-4 pt-12 sm:pt-0 text-center sm:text-left order-2 sm:order-1"
+              className="flex flex-col justify-center gap-4 pt-10 sm:pt-0 text-center sm:text-left order-2 sm:order-1 flex items-center justify-center mt-20"
             >
-              <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white dark:text-black">
-                Welcome{" "}
-                <span className="bg-clip-text text-transparent bg-gradient-to-b from-red-800 to-red-600 dark:from-red-400 dark:to-red-300">
-                  Foodie
-                </span>{" "}
-                Zone
-              </h1>
-              <p className="text-sm text-white dark:text-black">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque
-                reiciendis inventore iste ratione ex alias quis magni at optio
-              </p>
+              <img src='image 28 (2).png' alt='logo' className="animate-pulse animate-infinite animate-delay-100 animate-ease-in animate-fill-both"/>
+              {/* <p className="text-sm text-zinc-300 dark:text-black  font-thin">
+              3151 State Rt 27,
+              Franklin Park, NJ 08823
+            
+              <br/>
+              Tuesday - Thursday: 11:30AM - 10PM
+              <br/>
+              Friday - Saturday: 11:30AM - 10:30PM
+              <br/>
+              Sunday: 11:30AM - 10PM
+              <br/>
+              Break Everyday: 3PM - 5PM
+              </p> */}
               <div>
-                <button className="bg-red-800 hover:bg-red-600 duration-200 text-white dark:text-black py-2 px-4 rounded-full">
+                <button className="bg-red-800 hover:bg-red-600 duration-200 text-white dark:text-light py-2 px-4 rounded-full  ">
                   Order Now
                 </button>
               </div>

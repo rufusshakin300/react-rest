@@ -9,6 +9,9 @@ import Testimonial from "./components/Testimonial/Testimonial.jsx";
 import Footer from "./components/Footer/Footer.jsx";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Letter from "./components/Letter/Letter.jsx";
+import Menu from "./components/Menu/Menu.jsx";
+import MenuList from "./components/MenuList/MenuList.jsx";
 
 const App = () => {
   React.useEffect(() => {
@@ -26,10 +29,13 @@ const App = () => {
       <Navbar />
       <Hero />
       <Services />
+      {/* <Menu /> */}
+      <MenuList/>
       <Banner />
       {/* <CoverBanner /> */}
       <AppStore />
       <Testimonial />
+      <Letter />
       <Footer />
     </div>
   );

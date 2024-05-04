@@ -10,13 +10,13 @@ import footerLogo from "../../assets/food-logo.png";
 
 const Footer = () => {
   return (
-    <div className="bg-gray-100 dark:bg-gray-950">
-      <section className="max-w-[1200px] mx-auto">
+    <div className="bg-black dark:bg-gray-950">
+      <section className="max-w-[1200px] mx-auto text-slate-300">
         <div className=" grid md:grid-cols-3 py-5">
           <div className=" py-8 px-4 ">
             <h1 className="sm:text-3xl text-xl font-bold sm:text-left text-justify mb-3 flex items-center gap-3">
-              <img src={footerLogo} alt="Logo" className="max-w-[50px]" />
-              FOODIE
+              <img src="./image 28 (2).png" alt="Logo" className="max-w-[150px]" />
+              
             </h1>
             <p className="">
               Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet
@@ -29,7 +29,7 @@ const Footer = () => {
             </div>
             <div className="flex items-center gap-3 mt-3">
               <FaMobileAlt />
-              <p>+91 123456789</p>
+              <p>(732) 419-3597</p>
             </div>
             {/* Social Handle */}
             <div className="flex items-center gap-3 mt-6">
